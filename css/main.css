@@ -205,7 +205,7 @@ Primary use:
 /*---------------------------------------------*/
 .s2-txt1 {
   font-family: Lato-Regular;
-  font-size: 12px;
+  font-size: 1.5vmin;
   line-height: 1;
   color: #846add;
   text-transform: uppercase;
@@ -260,7 +260,7 @@ Primary use:
 /*---------------------------------------------*/
 .l2-txt1 {
   font-family: Lato-Bold;
-  font-size: 40px;
+  font-size: 5vmin;
   line-height: 1;
   color: #fff;
 }
@@ -277,8 +277,8 @@ Primary use:
 }
 
 .size2 {
-  width: 155px;
-  height: 155px;
+  width: 15vmin;
+  height: 15vmin;
 }
 
 .size3 {
@@ -521,4 +521,36 @@ Primary use:
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
 
+}
+
+.red {
+	background-color: red;
+}
+
+.red * { 
+	color: white !important;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.yellow * { 
+	color: black !important;
+}
+
+.black {
+	background-color: black;
+}
+
+.black * { 
+	color: white !important;
+}
+
+.white {
+	border: 4px dashed white;
+}
+
+.white * { 
+	color: white !important;
 }
